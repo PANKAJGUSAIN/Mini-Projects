@@ -1,0 +1,96 @@
+#body{
+    margin: 0px;
+    padding: 0px;
+}
+#main1{
+    position: absolute;
+    left:5%;
+    height:100%;
+    width: 40%;
+    min-height:600px;
+    min-width: 400px;
+    background-color: rgb(224, 220, 220);
+    border:2px solid white;
+}
+#border{
+    position: absolute;
+    left:48%;
+    width:2px;
+    height:100%;
+    background-color: black;
+}
+
+
+h1{
+    padding-top: 20px;
+    text-align: center;
+}
+
+#details{
+    position: relative;
+    top: 15%;
+    left:20%;
+}
+
+.div{
+    font-size: 20px;
+}
+
+.display{
+    display: inline-block;
+}
+
+#rollnumber{
+    margin-right:20px;
+}
+
+#name{
+    margin-right:68px;
+}
+
+#marks{
+    margin-right:64px;
+}
+
+button[type="submit"]{
+    position: relative;
+    font-size:1.5rem;
+    border: cornsilk;
+    border-radius:10%;
+    margin-top: 20px;
+    left:20%;
+}
+
+#items{
+    position:absolute;
+    left:50%;
+    display: flex;
+    height:100%;
+    width:50%;
+    min-height:600px;
+    min-width: 400px;
+    background-color:rgb(169, 226, 226);
+    border:2px solid white;
+    display:inline-block;
+    margin: auto;
+    overflow: auto;
+}
+.items {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+
+
+.items:nth-child(even) {
+    background-color: lightgrey;
+}
+
+.highlight {
+    background-color: forestgreen;
+    color: white;
+    padding: 0 10px;
+}
+
+
+
