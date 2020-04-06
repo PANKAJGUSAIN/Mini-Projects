@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #box{
+        height:300px;
+        width: 500px;
+        margin: 100px auto;
+        background-color: red;
+        box-shadow:2px grey;
+        cursor: pointer;
+    }
+    h1{
+        font-size:4rem;
+        text-align: center;
+    }
+    p{
+        text-align:center;
+        font-size:4rem;
+    }
+    #inputt{
+        border: 2px solid black;
+        position:relative;
+        top:70%;
+        left: 30%;
+    }
+</style>
+<body>
+    <div id="box">
+    </div>
+    <h1>
+        box clicked <span id="click_count">0</span>times.
+    </h1>
+    <p>
+        box over <span id ="mouse_over">0</span>
+    </p>
+    <p>
+        box out  <span id="mouse_out">0</span>
+    </p>
+    <input id="inputt" type="text">
+    <script type="text/javascript" src="number_of_clicks.js">
+    </script>
+    
+</body>
+</html>
